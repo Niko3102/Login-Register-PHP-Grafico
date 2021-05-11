@@ -11,7 +11,7 @@ class AsthSys
 
     public function confermaRegistrazione($id, $token){
         try {
-            $q = "SELECT id FROM Utenti WHERE id = :id AND token = :token";
+            $q = "SELECT id FROM utenti WHERE id = :id AND token = :token";
             $rq = $this->PDO->prepare($q);
             $rq->bindParam(":id", $id, PDO::PARAM_INT);
             $rq->bindParam(":token", $token, PDO::PARAM_STR);
@@ -19,7 +19,7 @@ class AsthSys
             if($rq->rowCount() == 0){
                 return FALSE;
             }
-            $this->PDO->query("UPDATE Utenti SET attivato = 1 WHERE id = $id");
+            $this->PDO->query("UPDATE utenti SET attivato = 1 WHERE id = $id");
             return TRUE;
         }catch(PDOException $e){
             return FALSE;
@@ -141,16 +141,20 @@ class AsthSys
                 throw new Exception("I dati forniti non sono validi per il login (PASS)");
             }
 
-            $this->PDO->query("DELETE FROM UtentiLoggati WHERE user_id ={$record['id']}");
+            $this->PDO->query("DELETE FROM utentiloggati WHERE user_id ={$record['id']}");
 
             //logghiamo l'utente
             $session_id = session_id();
             $user_id = $record['id'];
-            $q = "INSERT INTO utentiLoggati (session_id, user_id) VALUES (:sessionid, :userid)";
+            $q = "INSERT INTO utentiloggati (session_id, user_id) VALUES (:sessionid, :userid)";
             $rq = $this->PDO->prepare($q);
             $rq->bindParam(":sessionid", $session_id, PDO::PARAM_STR);
             $rq->bindParam(":userid", $user_id, PDO::PARAM_INT);
             $rq->execute();
+
+            session_start();
+            $_SESSION['username']=$username;
+            
 
             return TRUE;
         } catch (PDOException $e) {
@@ -160,7 +164,7 @@ class AsthSys
 
     public function logout(){
         try {
-            $q = "DELETE FROM utentiLoggati WHERE session_id = :sessionid";
+            $q = "DELETE FROM utentiloggati WHERE session_id = :sessionid";
             $rq = $this->PDO->prepare($q);
             $session_id = session_id();
             $rq->bindParam(":sessionid", $session_id, PDO::PARAM_STR);
@@ -172,7 +176,7 @@ class AsthSys
     }
 
     public function utenteLoggato(){
-        $q = "SELECT * FROM utentiLoggati WHERE session_id = :sessionid";
+        $q = "SELECT * FROM utentiloggati WHERE session_id = :sessionid";
         $rq = $this->PDO->prepare($q);
         $session_id = session_id();
         $rq->bindParam(":sessionid", $session_id, PDO::PARAM_STR);

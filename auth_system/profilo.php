@@ -115,15 +115,11 @@
 					  </a>
 					</div>
 					<div class="col-lg-6">
-					  <h2 class="card-title">Post Title</h2>
-					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-					  <a href="#" class="btn btn-primary">Read More &rarr;</a>
+					  <h2 class="card-title">Case Zero Emissioni</h2>
+					  <p class="card-text">Il concetto di eco-casa è strettamente legato a quello di casa “passiva” ovvero un modello di abitazione che viene costruito con sistemi e impianti energetici che sfruttano le risorse rinnovabili come l'energia geotermica, l'energia solare e le biomasse.</p>
+					  <a href="#" class="btn btn-primary">Continua a leggere &rarr;</a>
 					</div>
 				  </div>
-				</div>
-				<div class="card-footer text-muted">
-				  Posted on January 1, 2017 by
-				  <a href="#">Start Bootstrap</a>
 				</div>
 			</div>
 
@@ -137,15 +133,11 @@
 					  </a>
 					</div>
 					<div class="col-lg-6">
-					  <h2 class="card-title">Post Title</h2>
-					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-					  <a href="#" class="btn btn-primary">Read More &rarr;</a>
+					  <h2 class="card-title">Trasporti Eletrici</h2>
+					  <p class="card-text">L'energia elettrica accumulata dalla batteria viene trasferita al motore elettrico grazie ad un dispositivo inverter che ha il compito di trasformare la corrente continua in alternata e di inviarla al propulsore.</p>
+					  <a href="#" class="btn btn-primary">Continua a leggere &rarr;</a>
 					</div>
 				  </div>
-				</div>
-				<div class="card-footer text-muted">
-				  Posted on January 1, 2017 by
-				  <a href="#">Start Bootstrap</a>
 				</div>
 			</div>
 
@@ -159,15 +151,11 @@
 					  </a>
 					</div>
 					<div class="col-lg-6">
-					  <h2 class="card-title">Post Title</h2>
-					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-					  <a href="#" class="btn btn-primary">Read More &rarr;</a>
+					  <h2 class="card-title">Inquinamento Ambientale</h2>
+					  <p class="card-text">L’inquinamento ambientale si verifica nel momento in cui vengono disperse in un determinato luogo sostanze dannose, che possono comprometterlo. L’inquinamento dell’ambiente può provocare problematiche temporanee o permanenti, sia per l’equilibrio naturale che per la salute dell’uomo.</p>
+					  <a href="#" class="btn btn-primary">Continua a leggere &rarr;</a>
 					</div>
 				  </div>
-				</div>
-				<div class="card-footer text-muted">
-				  Posted on January 1, 2017 by
-				  <a href="#">Start Bootstrap</a>
 				</div>
 			</div>
 

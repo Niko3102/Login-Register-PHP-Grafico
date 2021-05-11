@@ -93,22 +93,22 @@
                <!-- Slide One - Set the background image for this slide in the line below -->
                <div class="carousel-item active" style="background-image: url('images/slider-01.jpg')">
                   <div class="carousel-caption d-none d-md-block">
-                     <h3>Welcome to N & LW Lawn Care</h3>
-                     <p>A Great Theme For Garden Lawn Care</p>
+                     <h3>Eco Casa-Zero Emissioni</h3>
+                     <p>Il nuovo volto dell'edilizia sostenibile. Quest’ultime si caratterizzano per avere un ridotto, se non nullo, impatto sull’ambiente grazie ad una serie di tecnologie ad alta sostenibilità ambientale.</p>
                   </div>
                </div>
                <!-- Slide Two - Set the background image for this slide in the line below -->
                <div class="carousel-item" style="background-image: url('images/slider-02.jpg')">
                   <div class="carousel-caption d-none d-md-block">
-                     <h3>Beautiful Garden</h3>
-                     <p>A Great Theme For Garden Lawn Care</p>
+                     <h3>Auto elettrica contro benzina e diesel</h3>
+                     <p>Il rispetto per l’ambiente e il miglioramento della qualità dell’aria nelle nostre città hanno guidato in tempi recenti lo sviluppo della tecnologia elettrica, che punta a competere con un duro rivale in termini di energia e con oltre un secolo di costante evoluzione alle spalle.</p>
                   </div>
                </div>
                <!-- Slide Three - Set the background image for this slide in the line below -->
                <div class="carousel-item" style="background-image: url('images/slider-03.jpg')">
                   <div class="carousel-caption d-none d-md-block">
-                     <h3>Welcome to N & LW Lawn Care</h3>
-                     <p>A Great Theme For Garden Lawn Care</p>
+                     <h3>Inquinamento Ambientale</h3>
+                     <p>L’inquinamento è un problema ambientale globale, che riguarda tutti gli stati e tutti gli esseri umani. Infatti, l’inquinamento nel mondo oggi costituisce la minaccia per la natura, che diventa natura contaminata.</p>
                   </div>
                </div>
             </div>
