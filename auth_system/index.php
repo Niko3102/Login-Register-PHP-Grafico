@@ -125,7 +125,7 @@
     <!-- Page Content -->
     <div class="container">
         <div class="services-bar">
-            <h1 class="my-4">Our Best Services </h1>
+            <h1 class="my-4">I nostri argomenti</h1>
             <!-- Services Section -->
             <div class="row">
                <div class="col-lg-4 mb-4">
@@ -177,7 +177,7 @@
         <div class="about-main">
             <div class="row">
                <div class="col-lg-6">
-                  <h2>Welcome to N & LW Lawn Care</h2>
+                  <h2>Benvenuti in P & EW EcoWord</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   <h5>Our smart approach</h5>
                   <ul>
@@ -299,7 +299,7 @@
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
             </div>
             <div class="col-md-4">
-               <a class="btn btn-lg btn-secondary btn-block" href="#">Get In Touch Now</a>
+               <a class="btn btn-lg btn-secondary btn-block" href="mailto:tua@email.com">Get In Touch Now</a>
             </div>
         </div>
     </div>
