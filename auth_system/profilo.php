@@ -73,7 +73,7 @@
                     <?php
                     require './include/default.php';
                     if(!$auth->utenteLoggato()){
-						header("location: index.php");
+						header("location: login.php");
                     exit;
                     }
                     ?>

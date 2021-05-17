@@ -130,7 +130,7 @@
             <div class="row">
                <div class="col-lg-4 mb-4">
                   <div class="card h-100">
-                     <h4 class="card-header">Garden Fence</h4>
+                     <h4 class="card-header">Case Zero Emissioni</h4>
                      <div class="card-img">
                         <img class="img-fluid" src="images/services-img-01.jpg" alt="" />
                      </div>
@@ -138,13 +138,13 @@
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                      </div>
                      <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="profilo.php" class="btn btn-primary">Learn More</a>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 mb-4">
                   <div class="card h-100">
-                     <h4 class="card-header">Garden Watering</h4>
+                     <h4 class="card-header">Trasporti Eletrici</h4>
                      <div class="card-img">
                         <img class="img-fluid" src="images/services-img-02.jpg" alt="" />
                      </div>
@@ -152,13 +152,13 @@
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                      </div>
                      <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="profilo.php" class="btn btn-primary">Learn More</a>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 mb-4">
                   <div class="card h-100">
-                     <h4 class="card-header">Garden Supplies</h4>
+                     <h4 class="card-header">Inquinamento Ambientale</h4>
                      <div class="card-img">
                         <img class="img-fluid" src="images/services-img-03.jpg" alt="" />
                      </div>
@@ -166,7 +166,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                      </div>
                      <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="profilo.php" class="btn btn-primary">Learn More</a>
                      </div>
                   </div>
                </div>
