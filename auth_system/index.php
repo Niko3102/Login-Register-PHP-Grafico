@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>N & LW Lawn Care - Landscaping Bootstrap4 HTML5 Responsive Template </title>
+	<title>P & EW EcoWord - index </title>
+   <link rel="icon" type="image/png" href="images/favicom.png"/>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Fontawesome CSS -->
@@ -135,7 +136,7 @@
                         <img class="img-fluid" src="images/services-img-01.jpg" alt="" />
                      </div>
                      <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <p class="card-text">Il concetto di eco-casa è strettamente legato a quello di casa “passiva” ovvero un modello di abitazione che viene costruito ...</p>
                      </div>
                      <div class="card-footer">
                         <a href="profilo.php" class="btn btn-primary">Learn More</a>
@@ -149,7 +150,7 @@
                         <img class="img-fluid" src="images/services-img-02.jpg" alt="" />
                      </div>
                      <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <p class="card-text">L'energia elettrica accumulata dalla batteria viene trasferita al motore elettrico grazie ad un dispositivo inverter che ha ...</p>
                      </div>
                      <div class="card-footer">
                         <a href="profilo.php" class="btn btn-primary">Learn More</a>
@@ -163,7 +164,7 @@
                         <img class="img-fluid" src="images/services-img-03.jpg" alt="" />
                      </div>
                      <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <p class="card-text">L’inquinamento ambientale si verifica nel momento in cui vengono disperse in un determinato luogo sostanze dannose ...</p>
                      </div>
                      <div class="card-footer">
                         <a href="profilo.php" class="btn btn-primary">Learn More</a>
@@ -178,16 +179,17 @@
             <div class="row">
                <div class="col-lg-6">
                   <h2>Benvenuti in P & EW EcoWord</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <h5>Our smart approach</h5>
+                  <p>Sempre più l’economia si sta orientando verso modelli di sviluppo ecologici e sostenibili. Vi presentiamo le iniziative più interessanti e le idee più innovative nell’ambito della tecnologia e dei prodotti con il cuore verde.</p>
+                  <h5>I nostri obiettivi</h5>
                   <ul>
-                     <li>Sed at tellus eu quam posuere mattis.</li>
-                     <li>Phasellus quis erat et enim laoreet posuere ac porttitor ipsum.</li>
-                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                     <li>Duis porttitor odio pellentesque mollis vulputate.</li>
-                     <li>Quisque ac eros non ex hendrerit vehicula.</li>
+                     <li>Città e comunità sostenibili</li>
+                     <li>Consumo e produzione responsabili</li>
+                     <li>Lotta contro il cambiamento climatico</li>
+                     <li>Energia pulita e accessibile</li>
+                     <li>Vita sott’acqua</li>
+                     <li>Sconfiggere la povertà</li>
                   </ul>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+                  <p>193 paesi, membri ufficiali dell’ONU hanno sottoscritto dopo il Vertice dello Sviluppo Sostenibile nel 2015, un programma d’azione con 17 Obiettivi e 169 Traguardi da raggiungere entro il 2030 poter mettere in pratica la Sostenibilità!</p>
                </div>
                <div class="col-lg-6">
                   <img class="img-fluid rounded" src="images/about-img.jpg" alt="" />
@@ -197,7 +199,7 @@
         </div>
         <!-- Portfolio Section -->
         <div class="portfolio-main">
-            <h2>Our Portfolio</h2>
+            <h2>Obiettivi</h2>
             <div class="row">
                <div class="col-lg-4 col-sm-6 portfolio-item">
                   <div class="card h-100">
@@ -209,7 +211,7 @@
                      </div>
                      <div class="card-body">
                         <h4 class="card-title">
-                           <a href="#">Lawn & garden care</a>
+                           <a href="#">Città e comunità sostenibili</a>
                         </h4>
                      </div>
                   </div>
@@ -224,7 +226,7 @@
                      </div>
                      <div class="card-body">
                         <h4 class="card-title">
-                           <a href="#">Lawn renovation</a>
+                           <a href="#">Consumo e produzione responsabili</a>
                         </h4>
                      </div>
                   </div>
@@ -239,7 +241,7 @@
                      </div>
                      <div class="card-body">
                         <h4 class="card-title">
-                           <a href="#">Tree planting</a>
+                           <a href="#">Lotta contro il cambiamento climatico </a>
                         </h4>
                      </div>
                   </div>
@@ -254,7 +256,7 @@
                      </div>
                      <div class="card-body">
                         <h4 class="card-title">
-                           <a href="#">Water Baganig</a>
+                           <a href="#">Energia pulita e accessibile</a>
                         </h4>
                      </div>
                   </div>
@@ -269,7 +271,7 @@
                      </div>
                      <div class="card-body">
                         <h4 class="card-title">
-                           <a href="#">Growing plants</a>
+                           <a href="#">Vita sott’acqua</a>
                         </h4>
                      </div>
                   </div>
@@ -278,13 +280,13 @@
                   <div class="card h-100">
                      <div class="card-img">
                         <a href="#">
-                           <img class="card-img-top" src="images/portfolio-img-01.jpg" alt="" />
+                           <img class="card-img-top" src="images/portfolio-img-06.jpg" alt="" />
                            <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                         </a>
                      </div>
                      <div class="card-body">
                         <h4 class="card-title">
-                           <a href="#">Snow removal</a>
+                           <a href="#">Sconfiggere la povertà</a>
                         </h4>
                      </div>
                   </div>
@@ -296,10 +298,10 @@
         <!-- Get In Touch Now Section -->
         <div class="row mb-4">
             <div class="col-md-8">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+               <p>Hai delle domande o delle osservazioni da comunicarci?<br>Compila il seguente modulo di contatto. Ti risponderemo il più rapidamente possibile!<br>Hai preso visione delle nostre risposte alle domande più frequenti? </p>
             </div>
             <div class="col-md-4">
-               <a class="btn btn-lg btn-secondary btn-block" href="mailto:tua@email.com">Get In Touch Now</a>
+               <a class="btn btn-lg btn-secondary btn-block" href="mailto:tua@email.com">Mettiti in contatto</a>
             </div>
         </div>
     </div>
@@ -309,47 +311,44 @@
         <div class="container bottom_border">
             <div class="row">
                <div class="col-lg-3 col-md-6 col-sm-6 col">
-					<h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+					<h5 class="headin5_amrc col_white_amrc pt2">Trovaci</h5>
 					<!--headin5_amrc-->
-					<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-					<p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
-					<p><i class="fa fa-phone"></i> +91-9999878398 </p>
-					<p><i class="fa fa fa-envelope"></i> info@example.com </p>
+					<p class="mb10"></p>
+					<p><i class="fa fa-location-arrow"></i> via milano 9</p>
+					<p><i class="fa fa-phone"></i> +31-333327839875 </p>
+					<p><i class="fa fa fa-envelope"></i> info@ecoword.com</p>
                </div>
                <div class="col-lg-3 col-md-6 col-sm-6 col">
-					<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+					<h5 class="headin5_amrc col_white_amrc pt2">Seguici</h5>
 					<!--headin5_amrc ends here-->
 					<ul class="footer_ul2_amrc">
 						<li>
-							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p>Lorem Ipsum is simply dummy printing...<a href="#">https://www.lipsum.com/</a></p>
+							<a href="#"><i class="fab fa-linkedin fleft padding-right"></i> </a>
+							<p>...<a href="https://it.linkedin.com/">https://it.linkedin.com/</a></p>
 						</li>
 						<li>
 							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p>Lorem Ipsum is simply dummy printing...<a href="#">https://www.lipsum.com/</a></p>
+							<p>...<a href="https://twitter.com/">https://twitter.com/</a></p>
 						</li>
 						<li>
-							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p>Lorem Ipsum is simply dummy printing...<a href="#">https://www.lipsum.com/</a></p>
+							<a href="#"><i class="fab fa-instagram fleft padding-right"></i> </a>
+							<p>...<a href="https://www.instagram.com/">https://www.instagram.com/</a></p>
 						</li>
 					</ul>
 					<!--footer_ul2_amrc ends here-->
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
-					<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+					<h5 class="headin5_amrc col_white_amrc pt2">Link veloci</h5>
 					<!--headin5_amrc-->
 					<ul class="footer_ul_amrc">
-						<li><a href="#">Default Version</a></li>
-						<li><a href="#">Boxed Version</a></li>
-						<li><a href="#">Our Team </a></li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Our Services</a></li>
-						<li><a href="#">Get In Touch</a></li>
+						<li><a href="faq.php">Chi siamo</a></li>
+						<li><a href="services.php">I nostri servizi</a></li>
+						<li><a href="mailto:tua@email.com">Mettiti in contatto</a></li>
 					</ul>
 					<!--footer_ul_amrc ends here-->
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6 ">
-					<h5 class="headin5_amrc col_white_amrc pt2">Recent posts</h5>
+					<h5 class="headin5_amrc col_white_amrc pt2">Messaggi recenti</h5>
 					<!--headin5_amrc-->
 					<ul class="footer_ul_amrc">
 						<li class="media">
@@ -357,8 +356,8 @@
 								<img class="img-fluid" src="images/post-img-01.jpg" alt="" />
 							</div>
 							<div class="media-body">
-								<p>How to find best dog food?</p>
-								<span>22 Sep 2018</span>
+								<p>Come trovare cibo a Km 0?</p>
+								<span>10 Maggio 2021</span>
 							</div>
 						</li>
 						<li class="media">
@@ -366,8 +365,8 @@
 								<img class="img-fluid" src="images/post-img-02.jpg" alt="" />
 							</div>
 							<div class="media-body">
-								<p>How to find best dog food?</p>
-								<span>34 Sep 2018</span>
+								<p>Come non sprecare il cibo</p>
+								<span>24 Maggio 2021</span>
 							</div>
 						</li>
 						<li class="media">
@@ -375,8 +374,8 @@
 								<img class="img-fluid" src="images/post-img-03.jpg" alt="" />
 							</div>
 							<div class="media-body">
-								<p>How to find best dog food?</p>
-								<span>30 Sep 2018</span>
+								<p>Come curere il prorio giardino?</p>
+								<span>18 Giugno 2021</span>
 							</div>
 						</li>
 					</ul>
@@ -389,9 +388,7 @@
 				<a href="#"><img src="images/footer-logo.png" alt="" /></a>
 			</div>
             <!--foote_bottom_ul_amrc ends here-->
-            <p class="copyright text-center">All Rights Reserved. &copy; 2018 <a href="#">N & LW Lawn Care</a> Design By : 
-				<a href="https://html.design/">html design</a>
-            </p>
+            <p class="copyright text-center">Tutti i diritti riservati &copy; 2021 <a href="#">P & EW EcoWord</a></p>
             <ul class="social_footer_ul">
 				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
