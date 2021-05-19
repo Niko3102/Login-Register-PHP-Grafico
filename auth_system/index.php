@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>P & EW EcoWord - index </title>
+	<title>P & EW EcoWord - Index </title>
    <link rel="icon" type="image/png" href="images/favicom.png"/>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -388,7 +388,7 @@
 				<a href="#"><img src="images/footer-logo.png" alt="" /></a>
 			</div>
             <!--foote_bottom_ul_amrc ends here-->
-            <p class="copyright text-center">Tutti i diritti riservati &copy; 2021 <a href="#">P & EW EcoWord</a></p>
+            <p class="copyright text-center">Tutti i diritti riservati &copy; <span id="anno"></span> <a href="#">P & EW EcoWord</a></p>
             <ul class="social_footer_ul">
 				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -398,6 +398,11 @@
             <!--social_footer_ul ends here-->
         </div>
     </footer>
+
+<script>
+var d = new Date();
+document.getElementById("anno").innerHTML = d.getFullYear();
+</script>
 	  
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
