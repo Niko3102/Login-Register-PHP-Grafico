@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>P & EW EcoWord - Profilo</title>
+	<title>P & EW EcoWord - Post</title>
 	<link rel="icon" type="image/png" href="images/favicom.png"/>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -64,99 +64,85 @@
 	<div class="full-title">
 		<div class="container">
 			<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">Profilo
+			<h1 class="mt-4 mb-3">Trasporti Eletrici
 				<small></small>
 			</h1>
 		</div>
 	</div>
 
-    <!-- Page Content -->
-    <div class="container">
+<!-- Page Content -->
+<div class="container">
 		<div class="breadcrumb-main">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item">
-					<a href="index.php">Home</a>
+					<a href="profilo.php">Profilo</a>
 				</li>
-				<li class="breadcrumb-item active">Profilo</li>
+				<li class="breadcrumb-item active">Post</li>
 			</ol>
 		</div>
 
-		<div class="blog-entries">
-			<!-- Blog Post -->
-			<div class="card mb-4">
-				<div class="card-body">
-				  <div class="row">
-					<div class="col-lg-6">
-					  <a href="profilo-post-1.php">
-						<img class="img-fluid rounded" src="images/blog-img-01.jpg" alt="" />
-					  </a>
-					</div>
-					<div class="col-lg-6">
-					  <h2 class="card-title">Case Zero Emissioni</h2>
-					  <p class="card-text">Il concetto di eco-casa è strettamente legato a quello di casa “passiva” ovvero un modello di abitazione che viene costruito con sistemi e impianti energetici che sfruttano le risorse rinnovabili come l'energia geotermica, l'energia solare e le biomasse.</p>
-					  <a href="profilo-post-1.php" class="btn btn-primary">Continua a leggere &rarr;</a>
-					</div>
-				  </div>
-				</div>
+		<!-- Portfolio Item Row -->
+		<div class="row">
+			<div class="col-md-8">
+				<img class="img-fluid" src="images/portfolio-big-Item2.jpg" alt="" />
 			</div>
+			<div class="col-md-4">
+					<h3 class="my-3">Auto elettriche: cosa sono?</h3>
+					<p>Le auto elettriche sono veicoli che utilizzano l’elettricità per movimentarsi, e non la benzina o altri combustibili fossili. Attraverso l’apposita ricarica, utilizzati di solito nelle automobili.</p>
+					<p>Hanno un’autonomia che varia di molto a seconda del modello e della casa automobilistica.  Le case costruttrici dichiarano, per i modelli equipaggiati con batterie al litio, delle autonomie nell’ordine di 200–400 Km. Alcuni tra i modelli più recenti,  arrivano fino a 600 Km.</p>
+			</div>
+		</div>
+		<!-- /.row -->
+		<h5 class="my-3">Auto elettriche: vantaggi</h5>
+        <h6>Grazie alle auto elettriche è possibile salvaguardare l’ambiente inquinando di meno, ma anche risparmiare sui costi del carburante. I vantaggi delle auto elettriche si possono riassumere in 4 punti:</h6>
+				<ul>
+					<li>Manutenzione ordinaria e straordinariamente costosa</li>
+					<li>Costi di ricarica ridotti</li>
+					<li>Esenzione bollo auto per 5 anni</li>
+                    <li>Copertura assicurativa scontata del 50%</li>
+                    <li>Possibilità di accedere alle zone a traffico limitato e di parcheggiare gratuitamente sulle strisce blu</li>
+                    <li>Detrazione fiscale per acquisto e installazione della colonnina di ricarica rapida</li>
+                </ul>
+        <h5 class="my-3">Auto elettriche: svantaggi</h5>
+        <p>Oltre ai costi e ai prezzi di listino ancora abbastanza elevati, le auto elettriche presentano anche degli svantaggi legati più che altro allo stato dell’arte in Italia e nel Mondo.</p>
+        <p>Dal punto di vista ambientale, le auto elettriche possono rappresentare un vantaggio solo se alimentate con energia proveniente da fonti rinnovabili.</p>
+        <p>Di per sé, infatti, il motore elettrico non produce emissioni inquinanti né vapore acqueo, ma se l’energia utilizzata per ricaricare le batterie proviene da combustibili fossili, il vantaggio in termini di emissioni di CO2 viene azzerato. E non è tutto.</p>
+        <p>Il meccanismo di incentivi vigente nell’Unione Europea potrebbe addirittura peggiorare la situazione. Un aumento del 10% nelle vendite di auto elettriche stimolerebbe, infatti, la produzione di nuove vetture tradizionali, finendo per far salire del 20% le emissioni inquinanti.</p>       
+                <hr>
+					<!-- Date/Time -->
+					<p>Pubblicato il 27 maggio 2021 alle 15:21</p>
+				<hr>
+				<!-- Post Content -->
+				<p class="lead">Auto elettriche prezzo</p>
 
-			<!-- Blog Post -->
-			<div class="card mb-4">
-				<div class="card-body">
-				  <div class="row">
-					<div class="col-lg-6">
-					  <a href="profilo-post-2.php">
-						<img class="img-fluid rounded" src="images/blog-img-02.jpg" alt="" />
-					  </a>
-					</div>
-					<div class="col-lg-6">
-					  <h2 class="card-title">Trasporti Eletrici</h2>
-					  <p class="card-text">L'energia elettrica accumulata dalla batteria viene trasferita al motore elettrico grazie ad un dispositivo inverter che ha il compito di trasformare la corrente continua in alternata e di inviarla al propulsore.</p>
-					  <a href="profilo-post-2.php" class="btn btn-primary">Continua a leggere &rarr;</a>
-					</div>
-				  </div>
-				</div>
-			</div>
+				<p>L’ostacolo principale all’utilizzo di massa delle auto elettriche resta il prezzo d’acquisto elevato, determinato sia dal costo delle batterie, sia dall’assicurazione.</p>
 
-			<!-- Blog Post -->
-			<div class="card mb-4">
-				<div class="card-body">
-				  <div class="row">
-					<div class="col-lg-6">
-					  <a href="#">
-						<img class="img-fluid rounded" src="images/blog-img-03.jpg" alt="" />
-					  </a>
-					</div>
-					<div class="col-lg-6">
-					  <h2 class="card-title">Inquinamento Ambientale</h2>
-					  <p class="card-text">L’inquinamento ambientale si verifica nel momento in cui vengono disperse in un determinato luogo sostanze dannose, che possono comprometterlo. L’inquinamento dell’ambiente può provocare problematiche temporanee o permanenti, sia per l’equilibrio naturale che per la salute dell’uomo.</p>
-					  <a href="#" class="btn btn-primary">Continua a leggere &rarr;</a>
-					</div>
-				  </div>
-				</div>
-			</div>
+				<p>Il costo medio mensile per un’auto a benzina in Italia è di 667 euro, per un diesel è 628 euro, per un’auto elettrica ci vogliono 986 euro. Tali costi potrebbero però ridurre la loro incidenza proprio con l’inizio di una produzione di serie.</p>
+
+				<p>Per le auto elettriche il listino, invece, parte dai 23.500 euro dei modelli più semplici fino ai 150.000 euro di quelli tecnologicamente più avanzati.</p>
+                
+                <p>Tuttavia lo Stato incentiva l’acquisto di questi veicoli con i cosiddetti ecobonus. Gli incentivi per le auto elettriche arrivano fino a 6.000 euro e saranno erogati a partire dal primo marzo 2019.</p>
+			<hr>
 
 			
-		</div>
-        <!--
-		<div class="pagination_bar_arrow">
-			 Pagination 
-			<ul class="pagination justify-content-center mb-4">
-				<li class="page-item">
-					<a class="page-link" href="#">&larr; Older</a>
-				</li>
-				<li class="page-item disabled">
-					<a class="page-link" href="#">Newer &rarr;</a>
-				</li>
-			</ul>
-		</div>
-        -->
+			<div class="blog-right-side">
+				<!-- Comments Form -->
+				<div class="card my-4">
+					<h5 class="card-header">Lascia un commento:</h5>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<textarea class="form-control" rows="3"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Invia</button>
+						</form>
+					</div>
+				</div>
+			</div>
     </div>
+    <!-- /.container -->
 
-  </div>
-  <!-- /.container -->
-
-	<!--footer starts from here-->
+    <!--footer starts from here-->
     <footer class="footer">
         <div class="container bottom_border">
             <div class="row">
@@ -253,7 +239,6 @@
 var d = new Date();
 document.getElementById("anno").innerHTML = d.getFullYear();
 </script>
-
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

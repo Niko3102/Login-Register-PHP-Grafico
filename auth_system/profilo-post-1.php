@@ -87,53 +87,45 @@
 				<img class="img-fluid" src="images/portfolio-big-Item.jpg" alt="" />
 			</div>
 			<div class="col-md-4">
-					<h3 class="my-3">Phasellus et nisi ut sapien ultricies laoreet.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-				<h3 class="my-3">Project Details</h3>
-				<ul>
-					<li>Lorem Ipsum</li>
-					<li>Dolor Sit Amet</li>
-					<li>Consectetur</li>
-					<li>Adipiscing Elit</li>
-				</ul>
+					<h3 class="my-3">Case ad emissioni zero: che cosa significa?</h3>
+					<p>Il concetto di eco-casa è strettamente legato a quello di casa “passiva” ovvero un modello di abitazione che viene costruito con sistemi e impianti energetici che sfruttano le risorse rinnovabili come l’energia geotermica, l’energia solare e le biomasse. L’obiettivo è quello di garantire uno sviluppo sostenibile che abbia effetti positivi dal punto di vista ambientale, sociale ed economico.</p>
+					<p>Abitazioni green e sostenibilità ambientale sono due tematiche al centro dell’attenzione a livello mondiale grazie alla sempre maggiore diffusione di una cultura edilizia che si fonda su progetti ad alta efficienza energetica e che limiti il più possibile l’impatto ambientale, migliorando contemporaneamente la salute e la qualità della vita dei cittadini. 
+
+Grazie alle innovazioni in campo tecnologico, la costruzione di un edificio a emissioni zero è diventata realtà: se un tempo l’obiettivo emissioni zero era limitato esclusivamente al funzionamento dell’edificio, oggi è possibile estendere il concetto di “zero emission building” all’intera vita dell’edificio, includendo la fase di progettazione e costruzione.</p>
 			</div>
 		</div>
 		<!-- /.row -->
+		<h5 class="my-3">Ciò è possibile grazie alla presenza dei seguenti elementi: </h5>
+				<ul>
+					<li>Materiali sostenibili: per la costruzione di una casa ecologica si fa uso di materiali a basso impatto ambientale e a ciclo continuo di sviluppo come legno, argilla, lane minerali;</li>
+					<li>Energie rinnovabili: le cosiddette energie alternative sono la chiave dei progetti di architettura eco-sostenibile. Tra le energie rinnovabili per la casa più diffuse si contano l’energia solare che può essere sfruttata grazie all’installazione di pannelli solari ad alta efficienza energetica e l’energia geotermica che sfrutta il calore del sottosuolo tramite impianti e sistemi a pompa di calore;</li>
+					<li>Smart Home: le case eco-sostenibili più all’avanguardia integrano anche un sistema domotico che, non solo permette di gestire con facilità funzionalità domestiche come l’illuminazione o gli elettrodomestici, ma garantisce un’ottimizzazione del consumo energetico. Una casa intelligente, infatti, si fonda su un uso smart dell’energia e delle risorse, sfruttate solo quando è realmente necessario.</li>
+				</ul>
                 <hr>
 					<!-- Date/Time -->
-					<p>Posted on January 1, 2018 at 18:00 PM</p>
+					<p>Pubblicato il 25 maggio 2021 alle 12:36</p>
 				<hr>
 				<!-- Post Content -->
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
+				<p class="lead">Sostenibilità ambientale: nuova frontiera dell’edilizia</p>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+				<p>Il concetto di sviluppo è strettamente legato a quello di tutela dell’ambiente che, negli ultimi decenni, si è evoluto andando ad includere non solo la dimensione ambientale, ma anche quella sociale ed economica. Si definisce sostenibile un modello di sviluppo che risulta capace di soddisfare i bisogni e le necessità del presente senza però compromettere la possibilità per le generazioni future di soddisfare i propri. </p>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+				<p>Nel campo dell’edilizia sono sempre di più le soluzioni innovative e all’avanguardia che nascono per supportare ambiente e società con edifici e progetti urbanistici a basso impatto ambientale. Si tratta di un modo nuovo di pensare alle abitazioni, fondandosi sui principi della bioarchitettura ovvero utilizzando solo materiali e tecniche che salvaguardano l’ecosistema ambientale e, al contempo, migliorano la qualità della vita e il benessere dell’essere umano. </p>
 
-				<blockquote class="blockquote">
-					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<footer class="blockquote-footer">Someone famous in
-						<cite title="Source Title">Source Title</cite>
-					</footer>
-				</blockquote>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
-
+				<p>UPTOWN Milano ha accolto pienamente questa nuova cultura dell'abitare, rispettosa sia dell’ambiente che della persona, diventata realtà grazie a edifici in classe A, impianti geotermici integrati con sistemi di teleriscaldamento e, in partnership con A2A Energia, utilizzo di energia elettrica prodotta al 100% da fonti rinnovabili sia per le zone pubbliche che per le utenze private. Scegliere un’abitazione costruita secondo le regole della bioedilizia non significa solo ottimizzare i consumi e avere migliori performance a livello energetico, ma anche fare una scelta consapevole nei confronti del pianeta e contribuire al raggiungimento di una Europa carbon free entro il 2030. </p>
 			<hr>
 
 			
 			<div class="blog-right-side">
 				<!-- Comments Form -->
 				<div class="card my-4">
-					<h5 class="card-header">Leave a Comment:</h5>
+					<h5 class="card-header">Lascia un commento:</h5>
 					<div class="card-body">
 						<form>
 							<div class="form-group">
 								<textarea class="form-control" rows="3"></textarea>
 							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="submit" class="btn btn-primary">Invia</button>
 						</form>
 					</div>
 				</div>
