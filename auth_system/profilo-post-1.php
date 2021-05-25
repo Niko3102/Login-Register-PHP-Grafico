@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>P & EW EcoWord - About </title>
+	<title>P & EW EcoWord - Post</title>
 	<link rel="icon" type="image/png" href="images/favicom.png"/>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -15,7 +15,7 @@
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-	<!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.php">
@@ -50,9 +50,8 @@
                     <?php
                     require './include/default.php';
                     if(!$auth->utenteLoggato()){
-                    ?>   
-                    <a class="nav-link" href="login.php">Login</a>
-                    <?php
+						header("location: login.php");
+                    exit;
                     }
                     ?>
                   </li>
@@ -60,92 +59,87 @@
             </div>
         </div>
     </nav>
+	
 	<!-- full Title -->
-    <!-- Page Content -->
-    <div class="container">
-		<!-- About Content -->
-		<div class="about-main">
-			<div class="row">
-				<div class="col-lg-6">
-					<img class="img-fluid rounded mb-4" src="images/team0.jpg" alt="" />
-				</div>
-				<div class="col-lg-6">
-					<h2>Chi siamo</h2>
-					<p>P & EW EcoWord è il principale informatore vittuonese. È stata fondata nel 2021 a Vittuone, in Italia.</p>
-					<p>Fin dalla sua nascita, l'azienda è stata un importante punto di riferimento per l'industria del informazione. Il suo impegno per la conservazione dell'ambiente, gli elevati standard etici negli accordi commerciali e gli sforzi continui per migliorare la qualità hanno contribuito a raggiungere nuovi traguardi e stabilire nuovi principi.</p>
- 				</div>
-			</div>
-			<!-- /.row -->
+	<div class="full-title">
+		<div class="container">
+			<!-- Page Heading/Breadcrumbs -->
+			<h1 class="mt-4 mb-3">Case Zero Emissioni
+				<small></small>
+			</h1>
+		</div>
+	</div>
+
+<!-- Page Content -->
+<div class="container">
+		<div class="breadcrumb-main">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="profilo.php">Profilo</a>
+				</li>
+				<li class="breadcrumb-item active">Post</li>
+			</ol>
 		</div>
 
-		<!-- Team Members -->
-		<div class="team-members-box">  
-			<h2>Come lavoriamo:</h2>
-			<div class="row">
-				<div class="col-lg-4 mb-4">
-				  <div class="card h-100 text-center">
-					<img class="card-img-top" src="images/team1.jpg" alt="" />
+		<!-- Portfolio Item Row -->
+		<div class="row">
+			<div class="col-md-8">
+				<img class="img-fluid" src="images/portfolio-big-Item.jpg" alt="" />
+			</div>
+			<div class="col-md-4">
+					<h3 class="my-3">Phasellus et nisi ut sapien ultricies laoreet.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+				<h3 class="my-3">Project Details</h3>
+				<ul>
+					<li>Lorem Ipsum</li>
+					<li>Dolor Sit Amet</li>
+					<li>Consectetur</li>
+					<li>Adipiscing Elit</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.row -->
+                <hr>
+					<!-- Date/Time -->
+					<p>Posted on January 1, 2018 at 18:00 PM</p>
+				<hr>
+				<!-- Post Content -->
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+
+				<blockquote class="blockquote">
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<footer class="blockquote-footer">Someone famous in
+						<cite title="Source Title">Source Title</cite>
+					</footer>
+				</blockquote>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+
+			<hr>
+
+			
+			<div class="blog-right-side">
+				<!-- Comments Form -->
+				<div class="card my-4">
+					<h5 class="card-header">Leave a Comment:</h5>
 					<div class="card-body">
-						<h4 class="card-title">Idea</h4>
-						<h6 class="card-subtitle mb-2 text-muted">Troviamo un idea</h6>
-						<p class="card-text">Il nostro team si interroga su come salvaguardare l'ambiente migliorando o creando nuove realtà</p>
+						<form>
+							<div class="form-group">
+								<textarea class="form-control" rows="3"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
 					</div>
-					
-				  </div>
-				</div>
-				<div class="col-lg-4 mb-4">
-				  <div class="card h-100 text-center">
-					<img class="card-img-top" src="images/team2.jpg" alt="" />
-					<div class="card-body">
-						<h4 class="card-title">Progettazione</h4>
-						<h6 class="card-subtitle mb-2 text-muted">Elaboriamo e cominciamo la progettazione</h6>
-						<p class="card-text">Il team affronta tutti i possibili intoppi e si passa a una scrematura delle idee e al inizio della progettazione</p>
-					</div>
-					
-				  </div>
-				</div>
-				<div class="col-lg-4 mb-4">
-				  <div class="card h-100 text-center">
-					<img class="card-img-top" src="images/team3.jpg" alt="" />
-					<div class="card-body">
-						<h4 class="card-title">Progetto</h4>
-						<h6 class="card-subtitle mb-2 text-muted">Il progetto parte</h6>
-						<p class="card-text">Tutto il team si impegna nel progetto fino al suo completamento</p>
-					</div>
-					
-				  </div>
 				</div>
 			</div>
-			<!-- /.row -->
-		</div>
-		
-		<!-- Our Customers 
-		<div class="customers-box"> 
-			<h2>Our Customers</h2>
-			<div class="row">
-				<div class="col-lg-2 col-sm-4 mb-4">
-				  <img class="img-fluid" src="images/logo_01.png" alt="" />
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-				  <img class="img-fluid" src="images/logo_02.png" alt="" />
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-				  <img class="img-fluid" src="images/logo_03.png" alt="" />
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-				  <img class="img-fluid" src="images/logo_04.png" alt="" />
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-				  <img class="img-fluid" src="images/logo_05.png" alt="" />
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-				  <img class="img-fluid" src="images/logo_06.png" alt="" />
-				</div>
-			</div>
-			 /.row 
-		</div>
-		 /.container -->
-	</div>
+    </div>
+    <!-- /.container -->
 
     <!--footer starts from here-->
     <footer class="footer">
@@ -244,7 +238,6 @@
 var d = new Date();
 document.getElementById("anno").innerHTML = d.getFullYear();
 </script>
-
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
