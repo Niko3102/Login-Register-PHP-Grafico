@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>P & EW EcoWord - Pricing</title>
+	<title>P & EW EcoWord - Pricing </title>
 	<link rel="icon" type="image/png" href="images/favicom.png"/>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
                      <a class="nav-link" href="services.php">Services</a>
                   </li>
                   <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Pages
                      </a>
                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
@@ -45,17 +45,16 @@
                      </div>
                   </li>
                   <li class="nav-item">
-                     
 
-                    <?php
-                    require './include/default.php';
-                    if(!$auth->utenteLoggato()){
-                    ?>   
-                    <a class="nav-link" href="login.php">Login</a>
-                    <?php
-                    }
-                    ?>
-                  </li>
+					 <?php
+					 require './include/default.php';
+					 if(!$auth->utenteLoggato()){
+					 ?>   
+					 <a class="nav-link" href="login.php">Login</a>
+					 <?php
+					 }
+					 ?>
+				   	</li>
                </ul>
             </div>
         </div>
@@ -66,7 +65,7 @@
 		<div class="container">
 			<!-- Page Heading/Breadcrumbs -->
 			<h1 class="mt-4 mb-3">Pricing
-				<small>Subheading</small>
+				<small></small>
 			</h1>
 		</div>
 	</div>
@@ -84,20 +83,19 @@
 
 		<div class="pricing-box">
 		<!-- Content Row -->
+		<h1 class="my-4">Pianta un albero</h1>
 			<div class="row">
 				<div class="col-lg-4 mb-4">
 					<div class="card h-100">
-						<h3 class="card-header">Basic</h3>
+						<h3 class="card-header">NeutraLight</h3>
 						<div class="card-body">
-							<div class="display-4">$19.99</div>
-							<div class="font-italic">per month</div>
+							<div class="display-4">€9,90</div>
+							<div class="font-italic">/al mese</div>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
-							<li class="list-group-item">Dapibus ac facilisis in</li>
-							<li class="list-group-item">Vestibulum at eros</li>
+							<li class="list-group-item"><p>In un anno pianterai alberi per assorbire <b>3 tonnellate</b> di CO<sub>2</sub>.</li>
 							<li class="list-group-item">
-							<a href="#" class="btn btn-primary">Sign Up!</a>
+							<a href="#" class="btn btn-primary">Aquista!</a>
 						  </li>
 						</ul>
 					</div>
@@ -105,36 +103,32 @@
 				<div class="col-lg-4 mb-4">
 					<div class="card card-outline-primary h-100">
 						<h3 class="card-header text-white">
-							Plus
-							<span class="most_popular">Most Popular</span>
+						Neutralizzare
+							<span class="most_popular">Il più popolare</span>
 						</h3>
 						<div class="card-body">
-							<div class="display-4">$39.99</div>
-							<div class="font-italic">per month</div>
+							<div class="display-4">€19,90</div>
+							<div class="font-italic">/al mese</div>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
-							<li class="list-group-item">Dapibus ac facilisis in</li>
-							<li class="list-group-item">Vestibulum at eros</li>
+							<li class="list-group-item"><p>In un anno pianterai alberi per assorbire <b>7 tonnellate</b> di CO<sub>2</sub>.</li>
 							<li class="list-group-item">
-							<a href="#" class="btn btn-primary">Sign Up!</a>
+							<a href="#" class="btn btn-primary">Aquista!</a>
 						  </li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-lg-4 mb-4">
 					<div class="card h-100">
-						<h3 class="card-header">Ultra</h3>
+						<h3 class="card-header">NeutraLarge</h3>
 						<div class="card-body">
-							<div class="display-4">$159.99</div>
-							<div class="font-italic">per month</div>
+							<div class="display-4">€29,90</div>
+							<div class="font-italic">/al mese</div>
 						</div>
 						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Cras justo odio</li>
-							<li class="list-group-item">Dapibus ac facilisis in</li>
-							<li class="list-group-item">Vestibulum at eros</li>
+							<li class="list-group-item"><p>In un anno pianterai alberi per assorbire <b>12 tonnellate</b> di CO<sub>2</sub>.</li>
 							<li class="list-group-item">
-							<a href="#" class="btn btn-primary">Sign Up!</a>
+							<a href="#" class="btn btn-primary">Aquista!</a>
 						  </li>
 						</ul>
 					</div>
@@ -213,7 +207,7 @@
 								<img class="img-fluid" src="images/post-img-03.jpg" alt="" />
 							</div>
 							<div class="media-body">
-								<p>Come curere il prorio giardino?</p>
+								<p>Come curare il prorio giardino?</p>
 								<span>18 Giugno 2021</span>
 							</div>
 						</li>

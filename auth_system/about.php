@@ -215,7 +215,7 @@
 								<img class="img-fluid" src="images/post-img-03.jpg" alt="" />
 							</div>
 							<div class="media-body">
-								<p>Come curere il prorio giardino?</p>
+								<p>Come curare il prorio giardino?</p>
 								<span>18 Giugno 2021</span>
 							</div>
 						</li>
