@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>P & EW EcoWord - Faq </title>
+	<title>P & EW EcoWord - Post</title>
 	<link rel="icon" type="image/png" href="images/favicom.png"/>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -50,9 +50,8 @@
                     <?php
                     require './include/default.php';
                     if(!$auth->utenteLoggato()){
-                    ?>   
-                    <a class="nav-link" href="login.php">Login</a>
-                    <?php
+						header("location: login.php");
+                    exit;
                     }
                     ?>
                   </li>
@@ -60,71 +59,74 @@
             </div>
         </div>
     </nav>
-
+	
 	<!-- full Title -->
 	<div class="full-title">
 		<div class="container">
 			<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">FAQ
+			<h1 class="mt-4 mb-3">Inquinamento Ambientale
 				<small></small>
 			</h1>
 		</div>
 	</div>
-	
-    <!-- Page Content -->
-    <div class="container">
+
+<!-- Page Content -->
+<div class="container">
 		<div class="breadcrumb-main">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item">
-					<a href="index.php">Home</a>
+					<a href="profilo.php">Profilo</a>
 				</li>
-				<li class="breadcrumb-item active">FAQ</li>
+				<li class="breadcrumb-item active">Post</li>
 			</ol>
 		</div>
 
-		<div class="faq-main">
-			<div class="" id="accordion" role="tablist" aria-multiselectable="true">
-				<div class="card accordion-single">
-				  <div class="card-header" role="tab" id="headingOne">
-					<h5 class="mb-0">
-					  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Cos'é P & EW EcoWord?</a>
-					</h5>
-				  </div>
-
-				  <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-					<div class="card-body">
-					P & EW EcoWord è un piccolo angolo online per gli amanti della Terra e le persone che hanno a cuore l'ambiente e il nostro futuro!
-È dove puoi trovare la tua scelta intelligente che è stata fatta in modo responsabile per il tuo utilizzo e senza alcun impatto dannoso sul nostro pianeta.
-					</div>
-				  </div>
-				</div>
-				<div class="card accordion-single">
-				  <div class="card-header" role="tab" id="headingTwo">
-					<h5 class="mb-0">
-					  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Dove ci troviamo?</a>
-					</h5>
-				  </div>
-				  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-					<div class="card-body">
-					La nostra sede è in Italia.
-					</div>
-				  </div>
-				</div>
-				<div class="card accordion-single">
-				  <div class="card-header" role="tab" id="headingThree">
-					<h5 class="mb-0">
-					  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Qual é il nostro obiettivo?</a>
-					</h5>
-				  </div>
-				  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-					<div class="card-body">
-					Il nostro obiettivo è fare la differenza, fare le cose giuste per te e per l'ambiente. Vogliamo incoraggiare le persone a far parte del cambiamento, dando il buon esempio! Stiamo progettando di diventare il principale informatore vittuonese e attraverso questi progetti che fanno la differenza!
-					</div>
-				  </div>
-				</div>
+		<!-- Portfolio Item Row -->
+		<div class="row">
+			<div class="col-md-8">
+				<img class="img-fluid" src="images/portfolio-big-Item3.jpg" alt="" />
+			</div>
+			<div class="col-md-4">
+					<h3 class="my-3">Inquinamento ambientale: cause e situazione in Italia</h3>
+					<p>L’inquinamento ambientale è costituito dall’immissione di sostanze inquinanti nell’ambiente naturale, causando gravi squilibri nell’ecosistema, danni spesso irreversibili, e conseguenze negative per la salute degli esseri viventi, piante e animali, uomo compreso. Vediamo insieme quali sono le principali cause e la situazione nel nostro paese.</p>
+					<p>Per inquinamento ambientale si intende la presenza di elementi inquinanti in tutto l’ambiente naturale. Per cui comprende non solo l’atmosfera, ma anche l’acqua e il terreno. Questi elementi possono essere di qualunque genere: gas, polveri, residui di combustione, liquidi, ma anche radiazioni elettromagnetiche, sostanze radioattive, rumori e vibrazioni.</p>
 			</div>
 		</div>
+		<!-- /.row -->
+        <h5 class="my-3">Inquinamento ambientale: principali cause e situazione in Italia</h5>
+        <p>Negli ultimi anni, il tema dell’inquinamento ambientale è stato trattato frequentemente. Infatti rappresenta un fattore di degrado per l’ambiente e di serio pericolo per la salute. Escludendo le pochissime cause di inquinamento naturale, ad esempio le emissioni di zolfo e anidride carbonica causate dalle eruzioni vulcaniche, ad inquinare l’ambiente è sempre la mano dell’uomo.</p>
+        <p>I processi industriali, il traffico, gli impianti di incenerimento dei rifiuti, le centrali termoelettriche, le raffinerie petrolifere, la lavorazione del ferro e della plastica, l’utilizzo di fertilizzanti chimici, la produzione di scorie nucleari, oltre al traffico stradale e al riscaldamento, sono fonti di inquinamento dell’ambiente ormai diffuse a livello mondiale.</p>      
+                <hr>
+					<!-- Date/Time -->
+					<p>Pubblicato il 19 maggio 2021 alle 19:21</p>
+				<hr>
+				<!-- Post Content -->
+				<p class="lead">Inquinamento ambientale: cause</p>
 
+				<p>Le cause dell’inquinamento ambientale dovute ad eventi naturali riguardano principalmente le sostanze chimiche emesse durante le eruzioni vulcaniche. Queste sono zolfo, benzene e monossido di carbonio, che si sviluppano anche dagli incendi di boschi e foreste. Tuttavia, anche gli incendi sono spesso causati dall’uomo, per favorire lo sviluppo dell’urbanistica e la costruzione di impianti industriali e infrastrutture.</p>
+
+				<p>Molto più estese sono le cause di inquinamento ambientale derivate dalle attività umane. In particolare, industria, produzione di energia elettrica e riscaldamento, agricoltura intensiva (compreso allevamento) e traffico automobilistico.</p>
+
+				<p>Le sostanze inquinanti presenti nell’atmosfera in forte concentrazione sono il monossido di carbonio, l’ossido e il biossido di azoto, l’anidride solforosa, l’ozono e le polveri, oltre a benzene e idrocarburi in minori quantità. Derivano tutte dalla combustione del petrolio, dai processi industriali, dalle infrastrutture e dagli impianti di refrigerazione e riscaldamento.</p>
+                
+                <p>A rendere più aggressiva l’azione degli elementi inquinanti è la deforestazione, che inibisce la capacità dell’ambiente naturale di assorbire l’anidride carbonica, oltre a provocare forti squilibri all’ecosistema e alla catena alimentare. Inoltre, da non sottovalutare è l’inquinamento acustico: le fonti di rumore intense, dovute al traffico e all’attività industriale, influiscono notevolmente sulla salute e sulla qualità della vita.</p>
+			<hr>
+
+			
+			<div class="blog-right-side">
+				<!-- Comments Form -->
+				<div class="card my-4">
+					<h5 class="card-header">Lascia un commento:</h5>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<textarea class="form-control" rows="3"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Invia</button>
+						</form>
+					</div>
+				</div>
+			</div>
     </div>
     <!-- /.container -->
 
@@ -225,7 +227,6 @@
 var d = new Date();
 document.getElementById("anno").innerHTML = d.getFullYear();
 </script>
-
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

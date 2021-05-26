@@ -123,14 +123,14 @@
 				<div class="card-body">
 				  <div class="row">
 					<div class="col-lg-6">
-					  <a href="#">
+					  <a href="profilo-post-3.php">
 						<img class="img-fluid rounded" src="images/blog-img-03.jpg" alt="" />
 					  </a>
 					</div>
 					<div class="col-lg-6">
 					  <h2 class="card-title">Inquinamento Ambientale</h2>
 					  <p class="card-text">L’inquinamento ambientale si verifica nel momento in cui vengono disperse in un determinato luogo sostanze dannose, che possono comprometterlo. L’inquinamento dell’ambiente può provocare problematiche temporanee o permanenti, sia per l’equilibrio naturale che per la salute dell’uomo.</p>
-					  <a href="#" class="btn btn-primary">Continua a leggere &rarr;</a>
+					  <a href="profilo-post-3.php" class="btn btn-primary">Continua a leggere &rarr;</a>
 					</div>
 				  </div>
 				</div>
